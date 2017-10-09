@@ -772,12 +772,13 @@ Resume Timeline
 .timeline>li .posted-date {
     position: relative;
     text-align: center;
-    background-color: #fff;
     left: 20px;
 }
 
 
 .timeline>li .posted-date .month {
+  border-radius: 10px;
+  padding: 5px;
     font-size: 18px;
     line-height: 20px;
     font-weight: 700;
@@ -838,10 +839,10 @@ Resume Timeline
 .timeline>li .posted-date {
     position: absolute;
     text-align: center;
-    background-color: #fff;
 }
 
 .timeline>li .timeline-panel {
+    border-radius: 10px;
     float: left;
     width: 43%;
     text-align: right;
@@ -850,9 +851,9 @@ Resume Timeline
 }
 
 .timeline-content{
+    border-radius: 10px;
     position: relative;
-    padding: 24px;
-    background-color: #fff;
+    padding: 20px;
     -webkit-transition:all 400ms;
     -moz-transition:all 400ms;
     -o-transition:all 400ms;
@@ -860,7 +861,6 @@ Resume Timeline
 }
 
 .timeline-content::after{
-    border: 1px solid #eee;
     width: 100%;
     position: absolute;
     content: "";
