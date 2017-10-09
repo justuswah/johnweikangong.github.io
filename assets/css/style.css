@@ -348,6 +348,7 @@ ul.list-check li::before {
 	color: #68c3a3;
 }
 .intro p{
+  text-align: center;
 	color: #f7f7f7;
   line-height: 28px;
 	margin-bottom: 40px;
@@ -540,6 +541,7 @@ SOCIAL ICON
 }
 
 p {
+  text-align: justify;
   font-size: 18px;
 }
 /* === About Section === */
