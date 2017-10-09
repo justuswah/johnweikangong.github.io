@@ -7,12 +7,12 @@
 	<meta name="description" content="Responsive Personal Portfolio vCard Template">
 	<meta name="author" content="Ahmed Faruk">
 
-	<title>Resume</title>
+	<title>My Resume</title>
 
   <!-- Web Fonts -->
   <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
 	<!-- Bootstrap core CSS -->
-	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
 	<!-- Font Awesome CSS -->
 	<link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
 	<!-- Animate css -->
@@ -31,7 +31,7 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
 
-  <link rel="shortcut icon" href="assets/images/ico/favicon.png">
+  <link rel="shortcut icon" href="assets/images/ico/boyicon.png">
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/ico/apple-touch-icon-144-precomposed.png">
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/ico/apple-touch-icon-114-precomposed.png">
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/ico/apple-touch-icon-72-precomposed.png">
@@ -43,44 +43,52 @@
 
 	<!-- Home Section -->
 	<section id="home" class="tt-fullHeight" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
+		<!-- Navigation -->
+		<header class="header">
+			<nav class="navbar-custom" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+
+					<div class="collapse navbar-collapse" id="custom-collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#home">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#education">Education</a></li>
+							<li><a href="#experience">Experience</a></li>
+							<li><a href="#skills">Skills</a></li>
+							<li><a href="#works">Works</a></li>
+						</ul>
+					</div>
+				</div><!-- .container -->
+			</nav>
+		</header><!-- End Navigation -->
 		<div class="intro">
-			<div class="intro-sub">I am John Ong</div>
-			<h1>Computer <span>Engineering</span></h1>
-			<p>I am an avid programmer &amp; Developer<br> Involving with latest web designing and technologies is a great <br> feel free to contact creative.</p>
+
+			<div class="intro-sub">Hello</div>
+			<h1 class="responsive-headline">I'm <span>John Ong.</span></h1>
+			<p>I'm an avid developer with a strong interest<br> in the software development and entrepreneur scene. <br>
+
+			<div class="social-icons">
+				<ul class="list-inline">
+					<li><a href="https://www.facebook.com/weikang.ong.9"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="https://www.instagram.com/weikangong"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="https://github.com/johnweikang"><i class="fa fa-github"></i></a></li>
+					<li><a href="ongwk95@hotmail.com"><i class="fa fa-skype"></i></a></li>
+				</ul>
+			</div> <!-- /.social-icons -->
 		</div>
 
 		<div class="mouse-icon">
 			<div class="wheel"></div>
 		</div>
 	</section><!-- End Home Section -->
-
-	<!-- Navigation -->
-	<header class="header">
-		<nav class="navbar navbar-custom" role="navigation">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-				</div>
-
-				<div class="collapse navbar-collapse" id="custom-collapse">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#home">Home</a></li>
-						<li><a href="#about">About</a></li>
-						<li><a href="#resume">Education</a></li>
-						<li><a href="#resume">Experience</a></li>
-						<li><a href="#skills">Skills</a></li>
-						<li><a href="#works">Works</a></li>
-					</ul>
-				</div>
-			</div><!-- .container -->
-		</nav>
-	</header><!-- End Navigation -->
-
 
     <!-- About Section -->
     <section id="about" class="about-section section-padding">
@@ -130,59 +138,15 @@
             </div>
           </div>
 
-
         </div> <!-- /.row -->
       </div> <!-- /.container -->
     </section><!-- End About Section -->
-
-
-    <!-- Video Section -->
-    <section id="video" class="video-section">
-      <div class="tf-bg-overlay">
-        <div class="container">
-          <div class="control">
-            <div class="video-intro text-center">
-              <button type="button" class="play-trigger" data-toggle="modal" data-target="#tour-video"><i class="fa fa-play"></i></button>
-              <h2>Video Introducing</h2>
-            </div>
-
-            <!-- Video Modal -->
-            <div class="modal modal-video" id="tour-video">
-              <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title">Video Tour</h4>
-                  </div>
-                  <div class="modal-body">
-                    <div class="video-container">
-                      <iframe src="http://player.vimeo.com/video/118119037" name="vimeoplayer" id="nofocusvideo" width="500" height="281"></iframe>
-                    </div><!--/.video-container-->
-                  </div>
-                  <!--/.modal-body-->
-                </div>
-                <!--/.modal-content-->
-              </div>
-              <!--/.modal-dialog-->
-            </div>
-            <!--/.modal-->
-          </div>
-          <!--/.control-->
-        </div>
-        <!--/.container-->
-      </div>
-      <!--/.overlay-->
-    </section>
-    <!-- /.Video Section -->
 
     <section id="education" class="skills-section section-padding">
 			<div class="container">
 					<h2 class="section-title wow fadeInUp">Education</h2>
 						<div class="row">
 							<div class="col-md-12">
-									<div class="resume-title">
-											<h3>Education</h3>
-									</div>
 									<div class="resume">
 											<ul class="timeline">
 													<li>
@@ -248,26 +212,23 @@
 		</section>
 
     <!-- Resume Section -->
-    <section id="resume" class="resume-section section-padding">
+    <section id="experience" class="resume-section section-padding">
         <div class="container">
             <h2 class="section-title wow fadeInUp">Experience</h2>
             <div class="row">
                 <div class="col-md-12">
-                    <div class="resume-title">
-                        <h3>Experience</h3>
-                    </div>
                     <div class="resume">
                         <ul class="timeline">
                             <li class="timeline-inverted">
                                 <div class="posted-date">
-                                  <span class="month">2011-2013</span>
+                                  <span class="month">May 2017 - Aug 2017</span>
                                 </div><!-- /posted-date -->
 
                                 <div class="timeline-panel wow fadeInUp">
                                     <div class="timeline-content">
                                         <div class="timeline-heading">
-                                            <h3>Junior ui designer</h3>
-                                            <span>XYZ Design Home, One Street, Boston</span>
+                                            <h3>Software Developement Intern</h3>
+                                            <span>Manifera Software Development Ptd Ltd</span>
                                         </div><!-- /timeline-heading -->
 
                                         <div class="timeline-body">
@@ -279,7 +240,7 @@
 
                             <li>
                                 <div class="posted-date">
-                                  <span class="month">2013-2015</span>
+                                  <span class="month">Feb 2014 - Jun 2016</span>
                                 </div><!-- /posted-date -->
 
                                 <div class="timeline-panel wow fadeInUp">
