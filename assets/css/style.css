@@ -777,8 +777,8 @@ Resume Timeline
 
 
 .timeline>li .posted-date .month {
-  border-radius: 10px;
-  padding: 5px;
+    border-radius: 10px;
+    padding: 1px 5px 1px 5px;
     font-size: 18px;
     line-height: 20px;
     font-weight: 700;
@@ -1159,6 +1159,7 @@ Resume Timeline
 
 
 .links {
+    text-align: center;
     width: 90px;
     height: 40px;
     position: absolute;
@@ -1193,12 +1194,7 @@ Resume Timeline
     height: 30px;
     border: 1px solid #68c3a3;
     z-index: -1;
-    border-radius: 3px;
-    -webkit-transform: rotate(45deg);
-       -moz-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-         -o-transform: rotate(45deg);
-            transform: rotate(45deg);
+    border-radius: 30px;
 }
 .links a:hover i::after {
     background-color: #68c3a3;
