@@ -28,10 +28,7 @@ jQuery(function ($) {
     /* ---------------------------------------------- /*
      * Preloader
     /* ---------------------------------------------- */
-
     $(window).ready(function() {
-//        $('#pre-status').fadeOut();
-//        $('#tt-preloader').delay(350).fadeOut('slow');
     });
 
 
@@ -40,7 +37,6 @@ jQuery(function ($) {
     // -------------------------------------------------------------
     // Animated scrolling / Scroll Up
     // -------------------------------------------------------------
-
     (function () {
         $('a[href*=#]').bind("click", function(e){
             var anchor = $(this);
@@ -69,7 +65,6 @@ jQuery(function ($) {
     // -------------------------------------------------------------
     // Sticky Menu
     // -------------------------------------------------------------
-
     (function () {
         $('.header').sticky({
             topSpacing: 0
@@ -81,23 +76,21 @@ jQuery(function ($) {
         })
     }());
 
+    // -------------------------------------------------------------
+    // Fade in and out main menu at Full Screen Slider
+    // -------------------------------------------------------------
     $(window).on('scroll', function() {
-
  		var h = $('section').height();
  		var y = $(window).scrollTop();
     var nav = $('#nav-wrap');
 
- 	   if ( (y > h*.10) && (y < h) && ($(window).outerWidth() > 768 ) ) {
- 	      nav.fadeOut('fast');
- 	   }
-       else {
-          if (y < h*.20) {
-             nav.removeClass('opaque').fadeIn('fast');
-          }
-          else {
-             nav.addClass('opaque').fadeIn('fast');
-          }
-       }
+ 	   if ((y > h*.10) && (y < h) && ($(window).outerWidth() > 768 )) {
+ 	     nav.fadeOut('fast');
+ 	   } else if (y < h*.10) {
+       nav.removeClass('opaque').fadeIn('fast');
+     } else {
+       nav.addClass('opaque').fadeIn('fast');
+     }
  	});
 
     // -------------------------------------------------------------
@@ -156,13 +149,13 @@ jQuery(function ($) {
             $('.chart').easyPieChart({
                 //your configuration goes here
                 easing: 'easeOut',
-                delay: 3000,
+                delay: 1000,
                 barColor:'#68c3a3',
                 trackColor:'rgba(255,255,255,0.2)',
                 scaleColor: false,
                 lineWidth: 8,
                 size: 140,
-                animate: 2000,
+                animate: 1500,
                 onStep: function(from, to, percent) {
                     this.el.children[0].innerHTML = Math.round(percent);
                 }

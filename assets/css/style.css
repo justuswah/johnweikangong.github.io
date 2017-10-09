@@ -427,7 +427,7 @@ SOCIAL ICON
    left: 0;
    top: 0;
 }
-.opaque { background-color: #333; }
+.opaque { background-color: #1a1e23; }
 
 .header {
     /*border-bottom: 1px solid #eee;*/
@@ -494,10 +494,10 @@ SOCIAL ICON
 
 .navbar-custom .navbar-nav > li > a{
     color: #fff;
-    font-size: 14px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 600;
     padding-top: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     text-transform: uppercase;
 }
 
@@ -1529,8 +1529,8 @@ Icon for all respective meta
 	background-color: #68c3a3;
   border-radius: 100%;
 	display: block;
-	width: 40px;
-	height: 40px;
+	width: 35px;
+	height: 35px;
 	text-align: center;
 	color: #fff;
 	font-size: 25px;
