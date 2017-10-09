@@ -1504,6 +1504,7 @@ Icon for all respective meta
 
 }
 .copyright p {
+    text-align: right;
     margin: 0;
 }
 
