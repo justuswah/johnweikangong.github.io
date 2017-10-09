@@ -414,6 +414,20 @@ SOCIAL ICON
 
 
 /* === NAVIGATION === */
+/* nav-wrap */
+#nav-wrap {
+   font: 12px 'opensans-bold', sans-serif;
+   width: 100%;
+   text-transform: uppercase;
+   letter-spacing: 2.5px;
+   margin: 0 auto;
+   z-index: 100;
+   position: fixed;
+   left: 0;
+   top: 0;
+}
+.opaque { background-color: #333; }
+
 .header {
     /*border-bottom: 1px solid #eee;*/
     position: relative;
@@ -424,7 +438,6 @@ SOCIAL ICON
 }
 
 .header::after {
-    border-bottom:1px solid #eee;
     width: 100%;
     position: absolute;
     content: "";
@@ -444,7 +457,6 @@ SOCIAL ICON
 
 .navbar-custom,
 .navbar-custom .dropdown-menu {
-    /*background: #fff;*/
     padding: 0;
 }
 
@@ -460,7 +472,7 @@ SOCIAL ICON
     border: 1px solid #ddd;
     border-top: 2px solid #68c3a3;
     border-radius: 0;
-    border-bottom: 3px double #ddd;
+    border-bottom: 3px double #ddd;*/
     background-color: #FFFFFF;
     -webkit-transition:all 400ms;
     -moz-transition:all 400ms;
@@ -474,16 +486,16 @@ SOCIAL ICON
 }
 .navbar-custom .navbar-nav > li:hover .dropdown-menu{
     display: block;
-    opacity:1;
+    opacity: 1;
     visibility: visible;
     margin-top:-2px;
 }
 
 .navbar-custom .navbar-nav > li > a{
-    color: #282828;
-    font-size: 15px;
+    color: #fff;
+    font-size: 14px;
     font-weight: 700;
-    padding-top: 15 px;
+    padding-top: 15px;
     padding-bottom: 10px;
     text-transform: uppercase;
 }
@@ -527,8 +539,9 @@ SOCIAL ICON
     background: #222;
 }
 
-
-
+p {
+  font-size: 18px;
+}
 /* === About Section === */
 .short-info {
     margin-bottom: 40px;
@@ -607,10 +620,7 @@ SOCIAL ICON
     border-bottom:0;
 }
 
-
-
 /* === Video Section === */
-
 .video-section {
     background: url(../images/video-bg.jpg) no-repeat center center;
     -webkit-background-size: cover;
@@ -650,7 +660,6 @@ SOCIAL ICON
 }
 
 /* === Resume Section === */
-
 /*---------------------------------------------------------
 Resume Timeline
 -----------------------------------------------------------*/
@@ -667,6 +676,7 @@ Resume Timeline
     margin-bottom: 30px;
 }
 .timeline {
+    color: black;
     position: relative;
     padding: 0;
     list-style: none;
@@ -1518,12 +1528,13 @@ Icon for all respective meta
 
 .scroll-up a {
 	background-color: #68c3a3;
+  border-radius: 100%;
 	display: block;
-	width: 28px;
-	height: 28px;
+	width: 40px;
+	height: 40px;
 	text-align: center;
 	color: #fff;
-	font-size: 14px;
+	font-size: 25px;
 	line-height: 28px;
 }
 
