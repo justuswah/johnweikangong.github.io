@@ -155,11 +155,7 @@ jQuery(function ($) {
                 scaleColor: false,
                 lineWidth: 8,
                 size: 140,
-                animate: 1500,
-                onStep: function(from, to, percent) {
-                    this.el.children[0].innerHTML = Math.round(percent);
-                }
-
+                animate: 1500
             });
             $(this).unbind('inview');
         }
@@ -209,7 +205,10 @@ jQuery(function ($) {
         },
         removalDelay: 300, // Delay in milliseconds before popup is removed
         mainClass: 'mfp-with-zoom', // this class is for CSS animation below
-        type:'image'
+        type:'image',
+        image: {
+            titleSrc: 'title'
+        }
 
       });
 

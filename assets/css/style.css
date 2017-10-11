@@ -1178,7 +1178,7 @@ Resume Timeline
 .links a i{
     position: relative;
     color: #68c3a3;
-    font-size: 16px;
+    font-size: 25px;
     margin: 0 13px;
     z-index: 100;
 }
@@ -1190,8 +1190,8 @@ Resume Timeline
     content: "";
     left: -7px;
     top: -7px;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border: 1px solid #68c3a3;
     z-index: -1;
     border-radius: 30px;
