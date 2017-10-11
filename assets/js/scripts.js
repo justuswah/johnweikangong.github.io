@@ -207,7 +207,7 @@ jQuery(function ($) {
         mainClass: 'mfp-with-zoom', // this class is for CSS animation below
         type:'image',
         image: {
-            titleSrc: 'title'
+            titleSrc: 'alt'
         }
 
       });
