@@ -26,7 +26,7 @@ jQuery(function ($) {
     /* ---------------------------------------------- */
 
     $(window).ready(function() {
-        $('#pre-status').delay(400).fadeOut('slow');
+        $('#pre-status').fadeOut('slow');
         $('#tt-preloader').delay(400).fadeOut('slow');
     });
 
