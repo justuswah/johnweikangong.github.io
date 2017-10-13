@@ -15,10 +15,6 @@ Author URL: farukahmed.com
     = More skill
     = Shuffle
     = Magnific Popup
-    = Vidio auto play
-    = Fit Vids
-    = Google Map
-
 */
 
 jQuery(function ($) {
@@ -28,7 +24,10 @@ jQuery(function ($) {
     /* ---------------------------------------------- /*
      * Preloader
     /* ---------------------------------------------- */
+
     $(window).ready(function() {
+        $('#pre-status').fadeOut();
+        $('#tt-preloader').delay(350).fadeOut('slow');
     });
 
 
