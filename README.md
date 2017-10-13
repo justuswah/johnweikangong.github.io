@@ -1,5 +1,3 @@
-# I AM JOHN ONG.
-
 # Overview
 Welcome to my online resume. Click <a href="http://johnweikangong.github.io" target="_blank">here</a> to view it. 
 
