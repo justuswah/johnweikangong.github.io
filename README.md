@@ -1,5 +1,5 @@
 # Resume
-Welcome to my online resume. Click <a href="http://johnweikangong.github.io" target="_blank">here</a> to view it. 
+Welcome to my online resume. Click <a href="https://justuswah.github.io/" target="_blank">here</a> to view it. 
 
 <img src="assets/images/siteCoverPage.png">
 
